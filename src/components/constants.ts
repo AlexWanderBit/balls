@@ -1,0 +1,9 @@
+export const BALL_RADIUS = 15;
+export const ROD_START = 50;
+export const ROD_END = 350;
+export const BALL_COLORS = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEEAD'];
+export const MINIMUM_SPACING = BALL_RADIUS * 2.2; // Increased spacing to prevent overlap
+export const MAGNETIC_THRESHOLD = 15;
+export const MAGNETIC_FORCE = 0.2;
+export const ANIMATION_DURATION = 150; // in milliseconds
+export const ANIMATION_EASING = 'cubic-bezier(0.4, 0, 0.2, 1)';
